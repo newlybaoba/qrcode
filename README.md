@@ -35,26 +35,26 @@ save_dir	存储位置	str，默认存储位置是当前目录
 
 废话不多说,直接上代码
 
-# -*- coding:utf-8 -*-
-# Author : Niuli
+-*- coding:utf-8 -*-
+Author : Niuli
 
 from MyQR import myqr
 
-# 普通二维码
-# myqr.run(words='should be str')
-# myqr.run(words='xxxxx' ,picture='150*150.jpg')
+普通二维码
+\# myqr.run(words='should be str')
+\# myqr.run(words='xxxxx' ,picture='150*150.jpg')
 
-# 40个版本样子方便查看选择想要的
-# count = 0 
-# for i in range(1,40):
-#     myqr.run(words='should be str',version=i,save_name='%s.jpg'%(count))
-#     count+=1
+\# 40个版本样子方便查看选择想要的
+\# count = 0 
+\# for i in range(1,40):
+\#     myqr.run(words='should be str',version=i,save_name='%s.jpg'%(count))
+\#     count+=1
 
 
-# 动态彩色二维码
-# 先找到一个new1.gif动图做背景,picture='new1.gif',
-# 再设置为彩色:colorized=True
-# myqr.run(words='this is colourful qrcode',picture='timg.gif',colorized=True,version=5)
+\# 动态彩色二维码
+\# 先找到一个new1.gif动图做背景,picture='new1.gif',
+\# 再设置为彩色:colorized=True
+\# myqr.run(words='this is colourful qrcode',picture='timg.gif',colorized=True,version=5)
 myqr.run(words='http://niuli.xyz',picture='timg.gif',colorized=True,version=5)
 最后,如果要自动跳转网址的话, 需要加上  word=’http://你的网址’
 
