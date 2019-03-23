@@ -58,8 +58,8 @@ from MyQR import myqr
 myqr.run(words='http://niuli.xyz',picture='timg.gif',colorized=True,version=5)
 最后,如果要自动跳转网址的话, 需要加上  word=’http://你的网址’
 
-blob:http://niuli.xyz/f8318925-b6d1-4683-b634-c3e0d7a90157
+
 
 最后..真正的二维码,,还是用作图软件做吧, 哈哈
 
-
+![](blob:http://niuli.xyz/f8318925-b6d1-4683-b634-c3e0d7a90157)
